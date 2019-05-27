@@ -1,6 +1,6 @@
 From: #FROMEMAIL#
 To: #CONTACTEMAIL#
-Subject: [op5] #NOTIFICATIONTYPE#: '#HOSTNAME#' is #HOSTSTATE#
+Subject: [-OP5-] #NOTIFICATIONTYPE#: '#HOSTNAME#' is #HOSTSTATE#
 MIME-Version: 1.0
 Content-Type: multipart/alternative; boundary="--op5_boundary"
 

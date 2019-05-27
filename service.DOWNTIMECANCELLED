@@ -1,6 +1,6 @@
 From: #FROMEMAIL#
 To: #CONTACTEMAIL#
-Subject: [op5] #NOTIFICATIONTYPE#: '#SERVICEDESC#' on '#HOSTNAME#' scheduled downtime cancelled.
+Subject: [-OP5-] #NOTIFICATIONTYPE#: '#SERVICEDESC#' on '#HOSTNAME#' scheduled downtime cancelled.
 MIME-Version: 1.0
 Content-Type: multipart/alternative; boundary="--op5_boundary"
 
