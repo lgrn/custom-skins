@@ -1,0 +1,267 @@
+From: #FROMEMAIL#
+To: #CONTACTEMAIL#
+Subject: [OP5] #NOTIFICATIONTYPE#: '#SERVICEDESC#' is #SERVICESTATE#
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary="--op5_boundary"
+
+----op5_boundary
+Content-Type: text/plain; charset=utf-8
+
+Extra host vars;
+#extra_host_vars#
+
+-c "#CONTACTNAME#"
+-h "#HOSTNAME#"
+-f "#NOTIFICATIONTYPE#"
+-m "#CONTACTEMAIL#"
+-p "#CONTACTPAGER#"
+-s "#SERVICEDESC#"
+"HOSTACTIONURL=#HOSTACTIONURL#"
+"HOSTNOTESURL=#HOSTNOTESURL#"
+"HOSTALIAS=#HOSTALIAS#"
+"HOSTADDRESS=#HOSTADDRESS#"
+"HOSTSTATE=#HOSTSTATE#"
+"SERVICEACTIONURL=#SERVICEACTIONURL#"
+"SERVICENOTESURL=#SERVICENOTESURL#"
+"HOSTSTATEID=#HOSTSTATEID#"
+"HOSTSTATETYPE=#HOSTSTATETYPE#"
+"HOSTATTEMPT=#HOSTATTEMPT#"
+"HOSTLATENCY=#HOSTLATENCY#"
+"HOSTEXECUTIONTIME=#HOSTEXECUTIONTIME#"
+"HOSTDURATION=#HOSTDURATION#"
+"HOSTDURATIONSEC=#HOSTDURATIONSEC#"
+"HOSTDOWNTIME=#HOSTDOWNTIME#"
+"HOSTPERCENTCHANGE=#HOSTPERCENTCHANGE#"
+"HOSTGROUPNAME=#HOSTGROUPNAME#"
+"HOSTGROUPALIAS=#HOSTGROUPALIAS#"
+"LASTHOSTCHECK=#LASTHOSTCHECK#"
+"LASTHOSTSTATECHANGE=#LASTHOSTSTATECHANGE#"
+"LASTHOSTUP=#LASTHOSTUP#"
+"LASTHOSTDOWN=#LASTHOSTDOWN#"
+"LASTHOSTUNREACHABLE=#LASTHOSTUNREACHABLE#"
+"HOSTOUTPUT=#HOSTOUTPUT#"
+"HOSTPERFDATA=#HOSTPERFDATA#"
+"SERVICESTATE=#SERVICESTATE#"
+"SERVICESTATEID=#SERVICESTATEID#"
+"SERVICESTATETYPE=#SERVICESTATETYPE#"
+"SERVICEATTEMPT=#SERVICEATTEMPT#"
+"SERVICELATENCY=#SERVICELATENCY#"
+"SERVICEEXECUTIONTIME=#SERVICEEXECUTIONTIME#"
+"SERVICEDURATION=#SERVICEDURATION#"
+"SERVICEDURATIONSEC=#SERVICEDURATIONSEC#"
+"SERVICEDOWNTIME=#SERVICEDOWNTIME#"
+"SERVICEPERCENTCHANGE=#SERVICEPERCENTCHANGE#"
+"SERVICEGROUPNAME=#SERVICEGROUPNAME#"
+"SERVICEGROUPALIAS=#SERVICEGROUPALIAS#"
+"LASTSERVICECHECK=#LASTSERVICECHECK#"
+"LASTSERVICESTATECHANGE=#LASTSERVICESTATECHANGE#"
+"LASTSERVICEOK=#LASTSERVICEOK#"
+"LASTSERVICEWARNING=#LASTSERVICEWARNING#"
+"LASTSERVICEUNKNOWN=#LASTSERVICEUNKNOWN#"
+"LASTSERVICECRITICAL=#LASTSERVICECRITICAL#"
+"SERVICEOUTPUT=#SERVICEOUTPUT#"
+"SERVICEPERFDATA=#SERVICEPERFDATA#"
+"SERVICEACKAUTHOR=#SERVICEACKAUTHOR#"
+"SERVICEACKCOMMENT=#SERVICEACKCOMMENT#"
+"NOTIFICATIONNUMBER=#NOTIFICATIONNUMBER#"
+"SHORTDATETIME=#SHORTDATETIME#"
+"TIME=#TIME#"
+"TIMET=#TIMET#"
+"ADMINPAGER=#ADMINPAGER#"
+"ADMINEMAIL=#ADMINEMAIL#"
+
+----op5_boundary
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" style="font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; box-sizing: border-box; font-size: 14px; margin: 0;">
+
+<head>
+  <meta name="viewport" content="width=device-width">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>HOST #NOTIFICATIONTYPE#</title>
+  <style type="text/css">
+  /*<![CDATA[*/
+  img {
+  max-width: 100%;
+  }
+  body {
+  -webkit-font-smoothing: antialiased; -webkit-text-size-adjust: none; width: 100% !important; height: 100%; line-height: 1.6em;
+  }
+  pre {
+    display: block;
+    padding: 9.5px;
+    margin: 0 0 10px;
+    font-size: 13px;
+    line-height: 1.42857143;
+    color: #333;
+    word-break: break-all;
+    word-wrap: break-word;
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-family: Menlo,Monaco,Consolas,"Courier New",monospace;
+    overflow: auto;
+    overflow-x: auto;
+    white-space: pre-wrap;
+    white-space: -moz-pre-wrap;
+    white-space: -pre-wrap;
+    white-space: -o-pre-wrap;
+    word-wrap: break-word;
+  }
+  body {
+  background-color: #f6f6f6;
+  }
+  @media only screen and (max-width: 640px) {
+  body {
+    padding: 0 !important;
+  }
+  h1 {
+    font-weight: 800 !important; margin: 20px 0 5px !important;
+  }
+  h2 {
+    font-weight: 800 !important; margin: 20px 0 5px !important;
+  }
+  h3 {
+    font-weight: 800 !important; margin: 20px 0 5px !important;
+  }
+  h4 {
+    font-weight: 800 !important; margin: 20px 0 5px !important;
+  }
+  h1 {
+    font-size: 22px !important;
+  }
+  h2 {
+    font-size: 18px !important;
+  }
+  h3 {
+    font-size: 16px !important;
+  }
+  .container {
+    padding: 0 !important; width: 100% !important;
+  }
+  .content {
+    padding: 0 !important;
+  }
+  .content-wrap {
+    padding: 10px !important;
+  }
+  .invoice {
+    width: 100% !important;
+  }
+  }
+  /*]]>*/
+  </style>
+</head>
+<body itemscope="itemscope" itemtype="http://schema.org/EmailMessage" style="font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif; box-sizing: border-box; font-size: 14px; -webkit-font-smoothing: antialiased; -webkit-text-size-adjust: none; width: 100% !important; height: 100%; line-height: 1.6em; background-color: #f6f6f6; margin: 0;" bgcolor="#F6F6F6">
+  <table class="body-wrap" style="font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif; box-sizing: border-box; font-size: 14px; width: 100%; background-color: #f6f6f6; margin: 0;" bgcolor="#F6F6F6">
+    <tr style="font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif; box-sizing: border-box; font-size: 14px; margin: 0;">
+      <td style="font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif; box-sizing: border-box; font-size: 14px; vertical-align: top; margin: 0;" valign="top"></td>
+      <td class="container" width="600" style="font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif; box-sizing: border-box; font-size: 14px; vertical-align: top; display: block !important; max-width: 600px !important; clear: both !important; margin: 0 auto;" valign="top">
+        <div class="content" style="font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif; box-sizing: border-box; font-size: 14px; max-width: 600px; display: block; margin: 0 auto; padding: 20px;">
+          <table class="main" width="100%" cellpadding="0" cellspacing="0" style="font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif; box-sizing: border-box; font-size: 14px; border-radius: 3px; background-color: #fff; margin: 0; border: 1px solid #e9e9e9;" bgcolor="#fff">
+            <tr style="font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif; box-sizing: border-box; font-size: 14px; margin: 0;">
+              <td class="alert alert-warning" style="font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif; box-sizing: border-box; font-size: 16px; vertical-align: top; color: #fff; font-weight: 500; text-align: center; border-radius: 3px 3px 0 0; background-color: #0074e5; margin: 0; padding: 20px;" align="center" bgcolor="#0074e5" valign="top">
+                <h3>DEBUG</h3>
+              </td>
+            </tr>
+            <tr style="font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif; box-sizing: border-box; font-size: 14px; margin: 0;">
+              <td class="content-wrap" style="font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif; box-sizing: border-box; font-size: 14px; vertical-align: top; margin: 0; padding: 20px;" valign="top">
+                <table width="100%" cellpadding="0" cellspacing="0" style="font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif; box-sizing: border-box; font-size: 14px; margin: 0;">
+                  <tr style="font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif; box-sizing: border-box; font-size: 14px; margin: 0;">
+                    <td class="content-block" style="font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif; box-sizing: border-box; font-size: 14px; vertical-align: top; margin: 0; padding: 0 0 20px;" valign="top">
+                      <strong>Details:</strong><br>
+                        Contact name: "#CONTACTNAME#" <br>
+                        Host name: "#HOSTNAME#" <br>
+                        Notification type: "#NOTIFICATIONTYPE#" <br>
+                        Contact email: "#CONTACTEMAIL#" <br>
+                        Contact pager: "#CONTACTPAGER#" <br>
+                        Service description: "#SERVICEDESC#" <br>
+                        Host action URL: #HOSTACTIONURL# <br>
+                        Host notes URL: #HOSTNOTESURL#<br>
+                        Host alias: #HOSTALIAS#<br>
+                        Host address: #HOSTADDRESS#<br>
+                        Host state: #HOSTSTATE#<br>
+                        Service action URL: #SERVICEACTIONURL#<br>
+                        Service Notes URL: #SERVICENOTESURL#<br>
+                        Host state ID: #HOSTSTATEID#<br>
+                        Host state type: #HOSTSTATETYPE#<br>
+                        Host attempt: #HOSTATTEMPT#<br>
+                        Host latency: #HOSTLATENCY#<br>
+                        Host execution time: #HOSTEXECUTIONTIME#<br>
+                        Host duration: #HOSTDURATION#<br>
+                        Host duration sec: #HOSTDURATIONSEC#<br>
+                        Host downtime: #HOSTDOWNTIME#<br>
+                        Host percent change: #HOSTPERCENTCHANGE#<br>
+                        Host group name: #HOSTGROUPNAME#<br>
+                        Host group alias: #HOSTGROUPALIAS#<br>
+                        Last host check: #LASTHOSTCHECK#<br>
+                        Last host state change: #LASTHOSTSTATECHANGE#<br>
+                        Last host UP: #LASTHOSTUP#<br>
+                        Last host DOWN: #LASTHOSTDOWN#<br>
+                        Last host UNREACHABLE: #LASTHOSTUNREACHABLE#<br>
+                        Host output: #HOSTOUTPUT#<br>
+                        Host perf data: #HOSTPERFDATA#<br>
+                        Service state: #SERVICESTATE#<br>
+                        Service state ID: #SERVICESTATEID#<br>
+                        Service state type: #SERVICESTATETYPE#<br>
+                        Service attempt: #SERVICEATTEMPT#<br>
+                        Service latency: #SERVICELATENCY#<br>
+                        Service execution time: #SERVICEEXECUTIONTIME#<br>
+                        Service duration: #SERVICEDURATION#<br>
+                        Service duration sec: #SERVICEDURATIONSEC#<br>
+                        Service downtime: #SERVICEDOWNTIME#<br>
+                        Service percent change: #SERVICEPERCENTCHANGE#<br>
+                        Service group name: #SERVICEGROUPNAME#<br>
+                        Service group alias: #SERVICEGROUPALIAS#<br>
+                        Last service CHECK: #LASTSERVICECHECK#<br>
+                        Last service STATECHANGE: #LASTSERVICESTATECHANGE#<br>
+                        Last service OK: #LASTSERVICEOK#<br>
+                        Last service WARNING: #LASTSERVICEWARNING#<br>
+                        Last service UNKNOWN: #LASTSERVICEUNKNOWN#<br>
+                        Last service CRITICAL: #LASTSERVICECRITICAL#<br>
+                        Service output: #SERVICEOUTPUT#<br>
+                        Service perf data: #SERVICEPERFDATA#<br>
+                        Service ACK author: #SERVICEACKAUTHOR#<br>
+                        Service ACK comment: #SERVICEACKCOMMENT#<br>
+                        Notification number: #NOTIFICATIONNUMBER#<br>
+                        Short datetime: #SHORTDATETIME#<br>
+                        Time :#TIME#<br>
+                        Time T : #TIMET#<br>
+                        Admin pager: #ADMINPAGER#<br>
+                        Admin email: #ADMINEMAIL#<br>
+                      <br>
+                      <br>
+                    </td>
+                  </tr>
+                  <tr style="font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif; box-sizing: border-box; font-size: 14px; margin: 0;">
+                    <td class="content-block" style="font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif; box-sizing: border-box; font-size: 14px; vertical-align: top; margin: 0; padding: 0 0 20px;" valign="top"></td>
+                  </tr>
+                  <tr style="font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif; box-sizing: border-box; font-size: 14px; margin: 0;">
+                    <td class="content-block" style="font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif; box-sizing: border-box; font-size: 14px; vertical-align: top; margin: 0; padding: 0 0 20px;" valign="top">
+                      <a href="#STATUS_URL#" class="btn-primary" style="font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif; box-sizing: border-box; font-size: 14px; color: #FFF; text-decoration: none; line-height: 2em; font-weight: bold; text-align: center; cursor: pointer; display: inline-block; border-radius: 5px; background-color: #348eda; margin: 0; border-color: #348eda; border-style: solid; border-width: 10px 20px;">
+                      Open in OP5 Monitor</a>
+                    </td>
+                  </tr>
+                  <tr style="font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif; box-sizing: border-box; font-size: 14px; margin: 0;">
+                    <td class="content-block" style="font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif; box-sizing: border-box; font-size: 14px; vertical-align: top; margin: 0; padding: 0 0 20px;" valign="top"></td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+          <div class="footer" style="font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif; box-sizing: border-box; font-size: 14px; width: 100%; clear: both; color: #999; margin: 0; padding: 20px;">
+            <table width="100%" style="font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif; box-sizing: border-box; font-size: 14px; margin: 0;">
+              <tr style="font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif; box-sizing: border-box; font-size: 14px; margin: 0;">
+                <td class="aligncenter content-block" style="font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif; box-sizing: border-box; font-size: 12px; vertical-align: top; color: #999; text-align: center; margin: 0; padding: 0 0 20px;" align="center" valign="top">Thank you for using
+                OP5.</td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </td>
+      <td style="font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif; box-sizing: border-box; font-size: 14px; vertical-align: top; margin: 0;" valign="top"></td>
+    </tr>
+  </table>
+</body>
+</html>
+
+----op5_boundary--
