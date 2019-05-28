@@ -7,4 +7,4 @@ During development, you can test the skins out by doing the following:
 ```
 cd /opt/monitor/op5/notify && git clone https://github.com/lgrn5/custom-skins.git
 ```
-Please note that you need to remove your `custom-skins` directory if it already exists.
+Please note that you need to remove your `custom-skins` directory if it already exists, and if you want it synced via Merlin it needs proper permissions set up on all nodes.
