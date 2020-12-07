@@ -158,9 +158,9 @@ Content-Type: text/html; charset=utf-8
                       Service notes: #SERVICENOTESURL#
                       <br>
                       <br>
-                      <strong>Long output:</strong><br>
+                      <strong>Output:</strong><br>
                       <br>
-                      <pre style="display: block;padding: 9.5px;margin: 0 0 10px;font-size: 13px;line-height: 1.42857143;color: #333;word-break: break-all;word-wrap: break-word;background-color: #f5f5f5;border: 1px solid #ccc;border-radius: 4px;font-family: Menlo,Monaco,Consolas,&quot;Courier New&quot;,monospace;overflow: auto;">#LONGSERVICEOUTPUT#</pre>
+                      <pre style="display: block;padding: 9.5px;margin: 0 0 10px;font-size: 13px;line-height: 1.42857143;color: #333;word-break: break-all;word-wrap: break-word;background-color: #f5f5f5;border: 1px solid #ccc;border-radius: 4px;font-family: Menlo,Monaco,Consolas,&quot;Courier New&quot;,monospace;overflow: auto;">#SERVICEOUTPUT#<br />#LONGSERVICEOUTPUT#</pre>
                     </td>
                   </tr>
                   <tr style="font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif; box-sizing: border-box; font-size: 14px; margin: 0;">
